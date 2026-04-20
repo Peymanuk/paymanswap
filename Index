@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>PaymanSwap</title>
+
+  <style>
+    body {
+      margin: 0;
+      background: #0b0b0b;
+      color: white;
+      font-family: Arial;
+      text-align: center;
+    }
+
+    .container {
+      margin-top: 80px;
+    }
+
+    .card {
+      background: #111;
+      padding: 30px;
+      border-radius: 15px;
+      width: 320px;
+      margin: auto;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      background: #222;
+      border: none;
+      color: white;
+    }
+
+    button {
+      background: #fcd535;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    .header {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+
+    .wallet {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <div class="header">
+    <h2>PaymanSwap 🚀</h2>
+  </div>
+
+  <div class="wallet">
+    <button>Connect Wallet</button>
+  </div>
+
+  <div class="container">
+
+    <div class="card">
+      <h3>Swap</h3>
+
+      <input placeholder="From (ETH)" />
+      <input placeholder="To (USDT)" />
+      <input placeholder="Amount" />
+
+      <p>Receive: ~1850</p>
+      <p style="color:gray;">You save $8</p>
+
+      <button>Swap Now</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
